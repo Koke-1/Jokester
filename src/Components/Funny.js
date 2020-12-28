@@ -13,7 +13,7 @@ export default function Funny(props) {
         <section className='joke' >
             <h1 className='setup' >{props.setup}</h1>
             {  Off ? 
-            <h3 className='delivery' onMouseEnter={Hover}>Hover over me </h3> :
+            <h3 className='delivery' onMouseEnter={Hover}>Hover over me! </h3> :
             <h3 className='delivery'>{props.delivery}</h3>}
         </section>
     )
